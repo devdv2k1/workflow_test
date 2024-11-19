@@ -4,8 +4,8 @@ on:
     branches:
       - main
     paths-ignore:
-      - '*.yaml'
-      - '*.yml'
+      - '**.yaml'
+      - '**.yml'
 jobs:
   build:
     runs-on: ubuntu-latest
